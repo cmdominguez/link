@@ -38,19 +38,19 @@ export default function Home() {
             <h2 className="text-2xl font-semibold text-gray-800 mb-2">Transferencia automatica</h2>
             <form>
                 <div className="mb-4">
-                    <label for="nombre" className="block text-gray-700 text-sm font-bold mb-2">Nombre:</label>
+                    <label className="block text-gray-700 text-sm font-bold mb-2">Nombre:</label>
                     <input type="text" id="nombre" name="nombre" className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50" />
                 </div>
                 <div className="mb-4">
-                    <label for="apellido" className="block text-gray-700 text-sm font-bold mb-2">Apellido:</label>
+                    <label className="block text-gray-700 text-sm font-bold mb-2">Apellido:</label>
                     <input type="text" id="apellido" name="apellido" className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50"/>
                 </div>
                 <div className="mb-4">
-                    <label for="cbu" className="block text-gray-700 text-sm font-bold mb-2">CBU:</label>
+                    <label className="block text-gray-700 text-sm font-bold mb-2">CBU:</label>
                     <input type="text" id="cbu" name="cbu" className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50" />
                 </div>
                 <div className="mb-4">
-                    <label for="cbu" className="block text-gray-700 text-sm font-bold mb-2">Monto en $:</label>
+                    <label className="block text-gray-700 text-sm font-bold mb-2">Monto en $:</label>
                     <input type="text" id="cbu" name="cbu" className="form-input mt-1 block w-full rounded-md border-gray-300 shadow-sm focus:border-blue-300 focus:ring focus:ring-blue-200 focus:ring-opacity-50" />
                 </div>
                 <div className="mt-6">
